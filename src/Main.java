@@ -1,34 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        // Задача 1
-        int ant = 1234567;
-        System.out.println("Значение переменной ant с типом int равно " + ant);
-        byte ball = 50;
-        System.out.println("Значение переменной ball с типом byte равно " + ball);
-        short cannedFood = 15300;
-        System.out.println("Значение переменной cannedFood с типом short равно " + cannedFood);
-        long minute = 987654321L;
-        System.out.println("Значение переменной minute с типом long равно " + minute);
-        float bugWeight = 0.153f;
-        System.out.println("Значение переменной bugWeight с типом float равно " + bugWeight);
-        double bagWeight = 5.14567315;
-        System.out.println("Значение переменной bagWeight с типом double равно " + bagWeight);
-        // Задача 2
-        float roadLength = 26.12f;
-        long vocabularySize = 987678965549L;
-        double columnHeight = 2.786;
-        boolean enoughHeight = columnHeight > 3;
-        var hat = 569;
-        short depth = -159;
-        int capacity = 27897;
-        byte manAge = 67;
-        System.out.println(roadLength);
-        System.out.println(vocabularySize);
-        System.out.println(columnHeight);
-        System.out.println(enoughHeight);
-        System.out.println(hat);
-        System.out.println(depth);
-        System.out.println(capacity);
-        System.out.println(manAge);
+        // Задача 8
+        int MashaSalaryPerMonth = 67760;
+        int DenisSalaryPerMonth = 83690;
+        int KristinaSalaryPerMonth = 76230;
+        double newMashaSalaryPerMonth = MashaSalaryPerMonth + MashaSalaryPerMonth * 0.1;
+        double newDenisSalaryPerMonth = DenisSalaryPerMonth + DenisSalaryPerMonth * 0.1;
+        double newKristinaSalaryPerMonth = KristinaSalaryPerMonth + KristinaSalaryPerMonth * 0.1;
+        double differenceMashaSalaryPerYear = newMashaSalaryPerMonth * 12 - MashaSalaryPerMonth * 12;
+        double differenceDenisSalaryPerYear = newDenisSalaryPerMonth * 12 - DenisSalaryPerMonth * 12;
+        double differenceKristinaSalaryPerYear = newKristinaSalaryPerMonth * 12 - KristinaSalaryPerMonth * 12;
+        System.out.println("Маша теперь получает " + newMashaSalaryPerMonth + " рублей. Годовой доход вырос на " + differenceMashaSalaryPerYear + " рублей.");
+        System.out.println("Денис теперь получает " + newDenisSalaryPerMonth + " рублей. Годовой доход вырос на " + differenceDenisSalaryPerYear + " рублей.");
+        System.out.println("Кристина теперь получает " + newKristinaSalaryPerMonth + " рублей. Годовой доход вырос на " + differenceKristinaSalaryPerYear + " рублей.");
         }
 }
